@@ -1,0 +1,21 @@
+.side-bar {
+    //side bar is the place where navigation bar is
+    background-color: #EDF3F8; //alice blue color
+}
+
+a { //link color
+    color: #0052A5;
+}
+
+button {
+    color: #0052A5;
+}
+
+svg {  //for the navbar arrow color
+    color: #0052A5; //polynesian blue
+}
+
+#site-nav>ul>li.nav-list-item.active {
+    background-color: #AFCBE0; //columbia blue
+}
+

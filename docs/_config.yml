@@ -3,3 +3,5 @@ description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
 
 url: https://handealptekin.github.io/wot-cg
+
+logo: "/assets/images/logo-mini-blue.svg"

@@ -1,0 +1,52 @@
+/* UTILITIES */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* NAVBAR STYLING STARTS */
+.navbar {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom:10px;
+    background-color: #EDF3F8;
+    color: #0052A5;
+}
+
+.logo {
+    padding-left:10px;
+}
+
+.nav-links a {
+    color: #0052A5;
+}
+
+/* NAVBAR MENU */
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+
+#main-content>nav>ul>div>li:nth-child(2):hover, #main-content>nav>ul>div>li:nth-child(3):hover {
+    background-color: #AFCBE0;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.menu li {
+    padding: 14px;
+}
+
+#start-tutorial-button {
+    padding: 10px;
+    gap: 1em;
+    background-color: #EDF3F8;
+    border-color: #0052A5;
+}

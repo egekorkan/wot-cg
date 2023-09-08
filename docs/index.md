@@ -1,51 +1,50 @@
 ---
-title: What is Wot?
-layout: home
+title: Landing Page
+layout: minimal
 nav_order: 1
 ---
 
-# What is WoT
+<html lang="en">
 
-{: .fs-6 .fw-300 }
-Welcome to the page "What is WoT".
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="index-style.css" />
+  <title>WoT Community Group</title>
+</head>
 
-Throughout this webpage, we will explain the Web of Things, its applications and tools for newcomers.
+<body>
+  <nav class="navbar">
+    <!-- LOGO -->
+    <div class="logo">
+      <svg id="logo" src ="/wot-cg/docs/assets/images/logo-mini-blue.svg"> </svg>
+    </div>
 
-This webpage is structured in two stages.
+    <ul class="nav-links">
+      <div class="menu">
+        <li>Web of Things Community Group</li>
+        <li><a href="whatiswot.html">Start the Tutorial</a></li>
+        <li><a href="https://github.com/w3c/wot-cg">Github</a></li>
+      </div>
+    </ul>
 
-First part includes concepts from basic to advanced.
+  </nav>
 
-Second part supports them with demos and applications.
+  <div class="container">
+    <br>
+    <h1>Web of Things Community Group</h1>
+    <br>
+    <p>Welcome to the tutorial series "What is WoT".
+      Throughout this tutorial, we will explain the Web of Things, its applications and tools for newcomers.
+      This tutorial is structured in two stages.
+      First part includes concepts from basic to advanced.
+      Second part supports them with demos and applications.</p>
+      <p>To begin the tutorial, simply click the button and you will be directed to the documentation page:</p>
+      <button id="start-tutorial-button"><a href="whatiswot.html">Start the Tutorial</a></button>
+      <br>
+  </div>
 
-{: .fs-6 .fw-300 }
-What to expect?
+</body>
 
-It is aimed to make newcomers learn about Web of Things and speed their learning process.
-
-Each section is short, therefore you can learn about WoT bit by bit.
-
-At any time, you can come back and use this page as reference.
-
-This material does not consist of only explanations but is also supported with code snippets that you can work on and try by yourself.
-
-At the end, you will have all the tools in your belt to build WoT applications.
-With all these tools, you can build actual software such as dashboards, protocol proxies andtranslators,smart internet-connected devices,mash ups of WoT devices and services, in many domains such as Smart Homes, Factory Automation.
-
-{: .fs-6 .fw-300 }
-Difference Between IoT and WoT
-
-Before we explain WoT, lets first talk about what is the difference between the WoT and IoT. While IoT focuses on technologies for connecting devices to the Internet, WoT leverages IoT and aims to provide interoperability between Things using established architectural ideas for the Web and web technologies.
-
-{: .fs-6 .fw-300 }
-Thing Description
-
-In the WoT Architecture, a Thing is defined as an abstraction of an IoT device or service. And TD (Thing Description) provides descriptive metadata for a Thing.
-
-{: .fs-6 .fw-300 }
-Web of Things in a Nutshell
-
-WoT provides a set of standardized technology building blocks that help to streamline IoT application development by following the well-known and successful Web paradigm.
-With the architecture enabled by the Web of Things, flexibility and interoperability increases especially in cross-domain applications, as well as enabling the reuse of established standards and tools.
-What can be achieved with the WoT is endless. We feel your excitement to learn and develop the WoT applications.
-
-If you are ready to dive into world of WoT, let's start this journey!
+</html>
